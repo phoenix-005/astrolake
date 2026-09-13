@@ -1,0 +1,14 @@
+# Secrets & Env
+.env
+*.pem
+credentials.yaml
+
+# Data artifacts & local lakehouse
+*.parquet
+*.avro
+minio_data/
+
+logs/
+__pycache__/
+.pytest_cache/
+.idea
