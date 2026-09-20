@@ -1,6 +1,20 @@
 FROM apache/airflow:3.3.1
 
+USER root
+# Install system dependencies for confluent-kafka (C-bindings) and PySpark (Java)
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    gcc \
+    g++ \
+    librdkafka-dev \
+    default-jre-headless && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/"*"
+
+# Set Java Home for PySpark
+ENV JAVA_HOME=/usr/lib/jvm/default-java
+
 USER airflow
 
-# Install provider to spawn sibling containers
-RUN pip install --no-cache-dir apache-airflow-providers-docker
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
