@@ -1,0 +1,3107 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "candid",
+            "nullable": true,
+            "type": "long"
+        },
+        {
+            "metadata": {},
+            "name": "objectId",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "candidate",
+            "nullable": true,
+            "type": {
+                "fields": [
+                    {
+                        "metadata": {},
+                        "name": "jd",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "fid",
+                        "nullable": true,
+                        "type": "long"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "pid",
+                        "nullable": true,
+                        "type": "long"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "diffmaglim",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "programpi",
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "programid",
+                        "nullable": true,
+                        "type": "long"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "candid",
+                        "nullable": true,
+                        "type": "long"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "isdiffpos",
+                        "nullable": true,
+                        "type": "boolean"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "nid",
+                        "nullable": true,
+                        "type": "long"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "rcid",
+                        "nullable": true,
+                        "type": "long"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "field",
+                        "nullable": true,
+                        "type": "long"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "ra",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "dec",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "magpsf",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "sigmapsf",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "chipsf",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "magap",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "sigmagap",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "distnr",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "magnr",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "sigmagnr",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "chinr",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "sharpnr",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "sky",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "fwhm",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "classtar",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "mindtoedge",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "seeratio",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "aimage",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "bimage",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "elong",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "nneg",
+                        "nullable": true,
+                        "type": "long"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "nbad",
+                        "nullable": true,
+                        "type": "long"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "rb",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "ssdistnr",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "ssmagnr",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "ssnamenr",
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "ranr",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "decnr",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "sgmag1",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "srmag1",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "simag1",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "szmag1",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "sgscore1",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "distpsnr1",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "ndethist",
+                        "nullable": true,
+                        "type": "long"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "ncovhist",
+                        "nullable": true,
+                        "type": "long"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "jdstarthist",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "scorr",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "sgmag2",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "srmag2",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "simag2",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "szmag2",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "sgscore2",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "distpsnr2",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "sgmag3",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "srmag3",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "simag3",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "szmag3",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "sgscore3",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "distpsnr3",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "nmtchps",
+                        "nullable": true,
+                        "type": "long"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "dsnrms",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "ssnrms",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "dsdiff",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "magzpsci",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "magzpsciunc",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "magzpscirms",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "zpmed",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "exptime",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "drb",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "clrcoeff",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "clrcounc",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "neargaia",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "maggaia",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "neargaiabright",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "maggaiabright",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "psfFlux",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "psfFluxErr",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "snr_psf",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "apFlux",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "apFluxErr",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "snr_ap",
+                        "nullable": true,
+                        "type": "double"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "band",
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "tooflag",
+                        "nullable": true,
+                        "type": "boolean"
+                    }
+                ],
+                "type": "struct"
+            }
+        },
+        {
+            "metadata": {},
+            "name": "prv_candidates",
+            "nullable": true,
+            "type": {
+                "containsNull": true,
+                "elementType": {
+                    "fields": [
+                        {
+                            "metadata": {},
+                            "name": "jd",
+                            "nullable": true,
+                            "type": "double"
+                        },
+                        {
+                            "metadata": {},
+                            "name": "psfFlux",
+                            "nullable": true,
+                            "type": "double"
+                        },
+                        {
+                            "metadata": {},
+                            "name": "psfFluxErr",
+                            "nullable": true,
+                            "type": "double"
+                        },
+                        {
+                            "metadata": {},
+                            "name": "band",
+                            "nullable": true,
+                            "type": "string"
+                        },
+                        {
+                            "metadata": {},
+                            "name": "ra",
+                            "nullable": true,
+                            "type": "double"
+                        },
+                        {
+                            "metadata": {},
+                            "name": "dec",
+                            "nullable": true,
+                            "type": "double"
+                        }
+                    ],
+                    "type": "struct"
+                },
+                "type": "array"
+            }
+        },
+        {
+            "metadata": {},
+            "name": "prv_nondetections",
+            "nullable": true,
+            "type": {
+                "containsNull": true,
+                "elementType": {
+                    "fields": [
+                        {
+                            "metadata": {},
+                            "name": "jd",
+                            "nullable": true,
+                            "type": "double"
+                        },
+                        {
+                            "metadata": {},
+                            "name": "psfFluxErr",
+                            "nullable": true,
+                            "type": "double"
+                        },
+                        {
+                            "metadata": {},
+                            "name": "band",
+                            "nullable": true,
+                            "type": "string"
+                        }
+                    ],
+                    "type": "struct"
+                },
+                "type": "array"
+            }
+        },
+        {
+            "metadata": {},
+            "name": "fp_hists",
+            "nullable": true,
+            "type": {
+                "containsNull": true,
+                "elementType": {
+                    "fields": [
+                        {
+                            "metadata": {},
+                            "name": "jd",
+                            "nullable": true,
+                            "type": "double"
+                        },
+                        {
+                            "metadata": {},
+                            "name": "psfFlux",
+                            "nullable": true,
+                            "type": "double"
+                        },
+                        {
+                            "metadata": {},
+                            "name": "psfFluxErr",
+                            "nullable": true,
+                            "type": "double"
+                        },
+                        {
+                            "metadata": {},
+                            "name": "band",
+                            "nullable": true,
+                            "type": "string"
+                        }
+                    ],
+                    "type": "struct"
+                },
+                "type": "array"
+            }
+        },
+        {
+            "metadata": {},
+            "name": "properties",
+            "nullable": true,
+            "type": {
+                "fields": [
+                    {
+                        "metadata": {},
+                        "name": "rock",
+                        "nullable": true,
+                        "type": "boolean"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "star",
+                        "nullable": true,
+                        "type": "boolean"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "near_brightstar",
+                        "nullable": true,
+                        "type": "boolean"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "stationary",
+                        "nullable": true,
+                        "type": "boolean"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "photstats",
+                        "nullable": true,
+                        "type": {
+                            "fields": [
+                                {
+                                    "metadata": {},
+                                    "name": "g",
+                                    "nullable": true,
+                                    "type": {
+                                        "fields": [
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_jd",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_mag",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_mag_err",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "dt",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "rising",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate_error",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dof",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "red_chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dt",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "fading",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate_error",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dof",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "red_chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dt",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "recent",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "window_days",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "peak_jd",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "peak_mag",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rising",
+                                                            "nullable": true,
+                                                            "type": {
+                                                                "fields": [
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate_error",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dof",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "red_chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "nb_data",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dt",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    }
+                                                                ],
+                                                                "type": "struct"
+                                                            }
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "fading",
+                                                            "nullable": true,
+                                                            "type": {
+                                                                "fields": [
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate_error",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dof",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "red_chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "nb_data",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dt",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    }
+                                                                ],
+                                                                "type": "struct"
+                                                            }
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            }
+                                        ],
+                                        "type": "struct"
+                                    }
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "r",
+                                    "nullable": true,
+                                    "type": {
+                                        "fields": [
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_jd",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_mag",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_mag_err",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "dt",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "rising",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate_error",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dof",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "red_chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dt",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "fading",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate_error",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dof",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "red_chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dt",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "recent",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "window_days",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "peak_jd",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "peak_mag",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rising",
+                                                            "nullable": true,
+                                                            "type": {
+                                                                "fields": [
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate_error",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dof",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "red_chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "nb_data",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dt",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    }
+                                                                ],
+                                                                "type": "struct"
+                                                            }
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "fading",
+                                                            "nullable": true,
+                                                            "type": {
+                                                                "fields": [
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate_error",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dof",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "red_chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "nb_data",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dt",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    }
+                                                                ],
+                                                                "type": "struct"
+                                                            }
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            }
+                                        ],
+                                        "type": "struct"
+                                    }
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "i",
+                                    "nullable": true,
+                                    "type": {
+                                        "fields": [
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_jd",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_mag",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_mag_err",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "dt",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "rising",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate_error",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dof",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "red_chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dt",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "fading",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate_error",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dof",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "red_chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dt",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "recent",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "window_days",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "peak_jd",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "peak_mag",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rising",
+                                                            "nullable": true,
+                                                            "type": {
+                                                                "fields": [
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate_error",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dof",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "red_chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "nb_data",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dt",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    }
+                                                                ],
+                                                                "type": "struct"
+                                                            }
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "fading",
+                                                            "nullable": true,
+                                                            "type": {
+                                                                "fields": [
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate_error",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dof",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "red_chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "nb_data",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dt",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    }
+                                                                ],
+                                                                "type": "struct"
+                                                            }
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            }
+                                        ],
+                                        "type": "struct"
+                                    }
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "z",
+                                    "nullable": true,
+                                    "type": "integer"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "y",
+                                    "nullable": true,
+                                    "type": "integer"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "u",
+                                    "nullable": true,
+                                    "type": "integer"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "j",
+                                    "nullable": true,
+                                    "type": "integer"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "h",
+                                    "nullable": true,
+                                    "type": "integer"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "k",
+                                    "nullable": true,
+                                    "type": "integer"
+                                }
+                            ],
+                            "type": "struct"
+                        }
+                    },
+                    {
+                        "metadata": {},
+                        "name": "multisurvey_photstats",
+                        "nullable": true,
+                        "type": {
+                            "fields": [
+                                {
+                                    "metadata": {},
+                                    "name": "g",
+                                    "nullable": true,
+                                    "type": {
+                                        "fields": [
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_jd",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_mag",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_mag_err",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "dt",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "rising",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate_error",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dof",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "red_chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dt",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "fading",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate_error",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dof",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "red_chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dt",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "recent",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "window_days",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "peak_jd",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "peak_mag",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rising",
+                                                            "nullable": true,
+                                                            "type": {
+                                                                "fields": [
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate_error",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dof",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "red_chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "nb_data",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dt",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    }
+                                                                ],
+                                                                "type": "struct"
+                                                            }
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "fading",
+                                                            "nullable": true,
+                                                            "type": {
+                                                                "fields": [
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate_error",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dof",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "red_chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "nb_data",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dt",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    }
+                                                                ],
+                                                                "type": "struct"
+                                                            }
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            }
+                                        ],
+                                        "type": "struct"
+                                    }
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "r",
+                                    "nullable": true,
+                                    "type": {
+                                        "fields": [
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_jd",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_mag",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_mag_err",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "dt",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "rising",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate_error",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dof",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "red_chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dt",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "fading",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate_error",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dof",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "red_chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dt",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "recent",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "window_days",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "peak_jd",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "peak_mag",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rising",
+                                                            "nullable": true,
+                                                            "type": {
+                                                                "fields": [
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate_error",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dof",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "red_chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "nb_data",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dt",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    }
+                                                                ],
+                                                                "type": "struct"
+                                                            }
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "fading",
+                                                            "nullable": true,
+                                                            "type": {
+                                                                "fields": [
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate_error",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dof",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "red_chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "nb_data",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dt",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    }
+                                                                ],
+                                                                "type": "struct"
+                                                            }
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            }
+                                        ],
+                                        "type": "struct"
+                                    }
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "i",
+                                    "nullable": true,
+                                    "type": {
+                                        "fields": [
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_jd",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_mag",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_mag_err",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "dt",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "rising",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate_error",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dof",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "red_chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dt",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "fading",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate_error",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dof",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "red_chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dt",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "recent",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "window_days",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "peak_jd",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "peak_mag",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rising",
+                                                            "nullable": true,
+                                                            "type": {
+                                                                "fields": [
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate_error",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dof",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "red_chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "nb_data",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dt",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    }
+                                                                ],
+                                                                "type": "struct"
+                                                            }
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "fading",
+                                                            "nullable": true,
+                                                            "type": {
+                                                                "fields": [
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate_error",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dof",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "red_chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "nb_data",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dt",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    }
+                                                                ],
+                                                                "type": "struct"
+                                                            }
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            }
+                                        ],
+                                        "type": "struct"
+                                    }
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "z",
+                                    "nullable": true,
+                                    "type": {
+                                        "fields": [
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_jd",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_mag",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "peak_mag_err",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "dt",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "rising",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate_error",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dof",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "red_chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dt",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "fading",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rate_error",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dof",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "red_chi2",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "dt",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "recent",
+                                                "nullable": true,
+                                                "type": {
+                                                    "fields": [
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "window_days",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "nb_data",
+                                                            "nullable": true,
+                                                            "type": "long"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "peak_jd",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "peak_mag",
+                                                            "nullable": true,
+                                                            "type": "double"
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "rising",
+                                                            "nullable": true,
+                                                            "type": {
+                                                                "fields": [
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate_error",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dof",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "red_chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "nb_data",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dt",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    }
+                                                                ],
+                                                                "type": "struct"
+                                                            }
+                                                        },
+                                                        {
+                                                            "metadata": {},
+                                                            "name": "fading",
+                                                            "nullable": true,
+                                                            "type": {
+                                                                "fields": [
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "rate_error",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dof",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "red_chi2",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "nb_data",
+                                                                        "nullable": true,
+                                                                        "type": "long"
+                                                                    },
+                                                                    {
+                                                                        "metadata": {},
+                                                                        "name": "dt",
+                                                                        "nullable": true,
+                                                                        "type": "double"
+                                                                    }
+                                                                ],
+                                                                "type": "struct"
+                                                            }
+                                                        }
+                                                    ],
+                                                    "type": "struct"
+                                                }
+                                            }
+                                        ],
+                                        "type": "struct"
+                                    }
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "y",
+                                    "nullable": true,
+                                    "type": "integer"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "u",
+                                    "nullable": true,
+                                    "type": "integer"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "j",
+                                    "nullable": true,
+                                    "type": "integer"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "h",
+                                    "nullable": true,
+                                    "type": "integer"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "k",
+                                    "nullable": true,
+                                    "type": "integer"
+                                }
+                            ],
+                            "type": "struct"
+                        }
+                    },
+                    {
+                        "metadata": {},
+                        "name": "sso",
+                        "nullable": true,
+                        "type": {
+                            "fields": [
+                                {
+                                    "metadata": {},
+                                    "name": "is_sso",
+                                    "nullable": true,
+                                    "type": "boolean"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "designation",
+                                    "nullable": true,
+                                    "type": "string"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "separation_arcsec",
+                                    "nullable": true,
+                                    "type": "double"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "predicted_mag",
+                                    "nullable": true,
+                                    "type": "double"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "source",
+                                    "nullable": true,
+                                    "type": "string"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "helio_dist",
+                                    "nullable": true,
+                                    "type": "double"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "topo_dist",
+                                    "nullable": true,
+                                    "type": "double"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "phase_angle",
+                                    "nullable": true,
+                                    "type": "double"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "true_anomaly",
+                                    "nullable": true,
+                                    "type": "double"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "perihelion_time",
+                                    "nullable": true,
+                                    "type": "double"
+                                }
+                            ],
+                            "type": "struct"
+                        }
+                    },
+                    {
+                        "metadata": {},
+                        "name": "activity",
+                        "nullable": true,
+                        "type": {
+                            "fields": [
+                                {
+                                    "metadata": {},
+                                    "name": "aperture_excess",
+                                    "nullable": true,
+                                    "type": "double"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "outburst",
+                                    "nullable": true,
+                                    "type": {
+                                        "fields": [
+                                            {
+                                                "metadata": {},
+                                                "name": "d7",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "d14",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "d30",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "points",
+                                                "nullable": true,
+                                                "type": {
+                                                    "containsNull": true,
+                                                    "elementType": {
+                                                        "fields": [
+                                                            {
+                                                                "metadata": {},
+                                                                "name": "jd",
+                                                                "nullable": true,
+                                                                "type": "double"
+                                                            },
+                                                            {
+                                                                "metadata": {},
+                                                                "name": "sigma",
+                                                                "nullable": true,
+                                                                "type": "double"
+                                                            }
+                                                        ],
+                                                        "type": "struct"
+                                                    },
+                                                    "type": "array"
+                                                }
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "scatter",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "baseline",
+                                                "nullable": true,
+                                                "type": "double"
+                                            }
+                                        ],
+                                        "type": "struct"
+                                    }
+                                }
+                            ],
+                            "type": "struct"
+                        }
+                    },
+                    {
+                        "metadata": {},
+                        "name": "detection_history",
+                        "nullable": true,
+                        "type": {
+                            "fields": [
+                                {
+                                    "metadata": {},
+                                    "name": "n_det",
+                                    "nullable": true,
+                                    "type": "long"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "n_pos",
+                                    "nullable": true,
+                                    "type": "long"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "n_neg",
+                                    "nullable": true,
+                                    "type": "long"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "first_neg_jd",
+                                    "nullable": true,
+                                    "type": "double"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "last_neg_jd",
+                                    "nullable": true,
+                                    "type": "double"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "n_pos_30d",
+                                    "nullable": true,
+                                    "type": "long"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "n_neg_30d",
+                                    "nullable": true,
+                                    "type": "long"
+                                }
+                            ],
+                            "type": "struct"
+                        }
+                    },
+                    {
+                        "metadata": {},
+                        "name": "episode_history",
+                        "nullable": true,
+                        "type": {
+                            "fields": [
+                                {
+                                    "metadata": {},
+                                    "name": "n_episodes",
+                                    "nullable": true,
+                                    "type": "long"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "gap_days",
+                                    "nullable": true,
+                                    "type": "double"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "last_gap_days",
+                                    "nullable": true,
+                                    "type": "double"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "prev_gap_days",
+                                    "nullable": true,
+                                    "type": "double"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "longest_quiet_days",
+                                    "nullable": true,
+                                    "type": "double"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "first_episode_jd",
+                                    "nullable": true,
+                                    "type": "double"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "last_episode_jd",
+                                    "nullable": true,
+                                    "type": "double"
+                                }
+                            ],
+                            "type": "struct"
+                        }
+                    }
+                ],
+                "type": "struct"
+            }
+        },
+        {
+            "metadata": {},
+            "name": "survey_matches",
+            "nullable": true,
+            "type": {
+                "fields": [
+                    {
+                        "metadata": {},
+                        "name": "ztf",
+                        "nullable": true,
+                        "type": "integer"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "lsst",
+                        "nullable": true,
+                        "type": {
+                            "fields": [
+                                {
+                                    "metadata": {},
+                                    "name": "objectId",
+                                    "nullable": true,
+                                    "type": "string"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "ra",
+                                    "nullable": true,
+                                    "type": "double"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "dec",
+                                    "nullable": true,
+                                    "type": "double"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "prv_candidates",
+                                    "nullable": true,
+                                    "type": {
+                                        "containsNull": true,
+                                        "elementType": {
+                                            "fields": [
+                                                {
+                                                    "metadata": {},
+                                                    "name": "jd",
+                                                    "nullable": true,
+                                                    "type": "double"
+                                                },
+                                                {
+                                                    "metadata": {},
+                                                    "name": "psfFlux",
+                                                    "nullable": true,
+                                                    "type": "double"
+                                                },
+                                                {
+                                                    "metadata": {},
+                                                    "name": "psfFluxErr",
+                                                    "nullable": true,
+                                                    "type": "double"
+                                                },
+                                                {
+                                                    "metadata": {},
+                                                    "name": "band",
+                                                    "nullable": true,
+                                                    "type": "string"
+                                                },
+                                                {
+                                                    "metadata": {},
+                                                    "name": "ra",
+                                                    "nullable": true,
+                                                    "type": "double"
+                                                },
+                                                {
+                                                    "metadata": {},
+                                                    "name": "dec",
+                                                    "nullable": true,
+                                                    "type": "double"
+                                                }
+                                            ],
+                                            "type": "struct"
+                                        },
+                                        "type": "array"
+                                    }
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "prv_nondetections",
+                                    "nullable": true,
+                                    "type": {
+                                        "containsNull": true,
+                                        "elementType": "integer",
+                                        "type": "array"
+                                    }
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "fp_hists",
+                                    "nullable": true,
+                                    "type": {
+                                        "containsNull": true,
+                                        "elementType": {
+                                            "fields": [
+                                                {
+                                                    "metadata": {},
+                                                    "name": "jd",
+                                                    "nullable": true,
+                                                    "type": "double"
+                                                },
+                                                {
+                                                    "metadata": {},
+                                                    "name": "psfFlux",
+                                                    "nullable": true,
+                                                    "type": "double"
+                                                },
+                                                {
+                                                    "metadata": {},
+                                                    "name": "psfFluxErr",
+                                                    "nullable": true,
+                                                    "type": "double"
+                                                },
+                                                {
+                                                    "metadata": {},
+                                                    "name": "band",
+                                                    "nullable": true,
+                                                    "type": "string"
+                                                }
+                                            ],
+                                            "type": "struct"
+                                        },
+                                        "type": "array"
+                                    }
+                                }
+                            ],
+                            "type": "struct"
+                        }
+                    }
+                ],
+                "type": "struct"
+            }
+        }
+    ],
+    "type": "struct"
+}
