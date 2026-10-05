@@ -3,6 +3,7 @@
 .env
 *.pem
 credentials.yaml
+.venv
 
 # Data artifacts & local lakehouse
 *.parquet

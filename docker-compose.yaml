@@ -78,11 +78,13 @@ x-airflow-common:
     # The following line can be used to set a custom config file, stored in the local config folder
     AIRFLOW_CONFIG: '/opt/airflow/config/airflow.cfg'
     INFRA_ENV: 'local'
+    AIRFLOW__CORE__TEST_CONNECTION: 'Enabled'
   volumes:
     - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
     - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
     - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
+    - ${AIRFLOW_PROJ_DIR:-.}/utils:/opt/airflow/utils
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
@@ -358,6 +360,25 @@ services:
       mc mb myminio/warehouse || true;
       exit 0;
       "
+
+  spark-master:
+    image: apache/spark:4.1.0
+    container_name: spark-master
+    command: >
+      /opt/spark/bin/spark-class org.apache.spark.deploy.master.Master
+    ports:
+      - "9090:8080"
+      - "7077:7077"
+    environment:
+      - SPARK_MASTER_OPTS=-Dspark.ui.reverseProxy=true -Dspark.ui.reverseProxyUrl=http://localhost:9090
+
+  spark-worker:
+    image: apache/spark:4.1.0
+    container_name: spark-worker
+    command: >
+      /opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077
+    depends_on:
+      - spark-master
 
 volumes:
   postgres-db-volume:
