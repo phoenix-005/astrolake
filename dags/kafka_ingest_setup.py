@@ -15,7 +15,7 @@ def create_dag(dag_id, dag_project):
             schedule=None,
     ) as dag:
         save_schema_sample = ConsumeFromTopicOperator(
-            kafka_config_id="kafka-default",
+            kafka_config_id="kafka_default",
             task_id="save_schema_sample",
             topics=Variable.get(f"{dag_project}_topics", deserialize_json=True),
             apply_function=save_sample_avro_ocf,
