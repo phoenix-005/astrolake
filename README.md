@@ -1,6 +1,6 @@
 # AstroLake
 
-A scalable, decoupled lakehouse pipeline designed to ingest, parse, and catalog real-time astronomical transient alerts from the **Zwicky Transient Facility (ZTF)** and the **Vera C. Rubin Observatory's Legacy Survey of Space and Time (LSST)**.
+A scalable, decoupled lakehouse pipeline designed to ingest, parse, and catalog real-time astronomical transient alerts from the [**Zwicky Transient Facility (ZTF)**](https://www.ztf.caltech.edu) and the [**Vera C. Rubin Observatory's Legacy Survey of Space and Time (LSST)**](https://www.lsst.org).
 
 ---
 
